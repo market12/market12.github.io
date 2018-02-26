@@ -1278,6 +1278,14 @@ a:hover {
     z-index: 1
 }
 
+.logo1 {
+    height: 100%;
+    width: 100%;
+    background: left center no-repeat;
+    background-image: url(../images/logo1.png);
+	position: relative;
+}
+
 .b_site_title {
     color: #fefefe
 }
