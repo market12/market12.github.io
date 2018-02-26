@@ -1203,7 +1203,9 @@ button.toast-close-button {
 }
 
 @font-face {
-    font-family:GillSans;src:url(../fonts/GillSansWd.eot?#iefix) format("embedded-opentype"),url(../fonts/GillSansWd.woff) format("woff"),url(../fonts/GillSansWd.ttf) format("truetype"),url(../fonts/GillSansWd.svg#GillSansWd) format("svg");font-weight:400;font-style:normal
+    font-family:GillSans;src:url(../fonts/GillSansWd.eot?#iefix) format("embedded-opentype"),url(../fonts/GillSansWd.woff) format("woff"),url(../GillSansWd.ttf) format("truetype"),url(../fonts/GillSansWd.svg#GillSansWd) format("svg");font-weight:400;font-style:normal
+   }
+
 }
 
 @font-face {
@@ -1285,7 +1287,7 @@ a:hover {
     background-image: url(../images/logo1.png);
 	position: relative;
    font-size: 24px;
-  font-family: 'Gill Suns', serif; 
+  font-family: 'GillSuns', serif; 
  font-style: oblique; 
 }
 
