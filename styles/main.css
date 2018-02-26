@@ -1202,8 +1202,16 @@ button.toast-close-button {
     left: -10px
 }
 
+@font-face {
+    font-family:GillSans;src:url(../fonts/GillSansWd.eot?#iefix) format("embedded-opentype"),url(../fonts/GillSansWd.woff) format("woff"),url(../fonts/GillSansWd.ttf) format("truetype"),url(../fonts/GillSansWd.svg#GillSansWd) format("svg");font-weight:400;font-style:normal
+}
+
+@font-face {
+    font-family:GillSans;src:url(../fonts/GillSans-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/GillSans-Bold.woff) format("woff"),url(../fonts/GillSans-Bold.ttf) format("truetype");font-weight:700;font-style:normal
+}
+
 body {
-    font-family: 'Open Sans',sans-serif;
+    font-family: GillSans,sans-serif;
     color: #fefefe
 }
 
@@ -1222,8 +1230,9 @@ main {
     text-align: left;
     font-weight: 600;
     display: block;
-    color: #fefefe;
-    transition: color .1s
+    color: 	#000080;
+    transition: color .1s;
+    font-style: italic
 }
 
 .b_main_logo span {
@@ -1289,7 +1298,10 @@ a:hover {
 }
 
 .l_election {
-    padding: 30px 15px 60px 15px
+    padding: 30px 15px 60px 15px;
+	background-color:rgb(0,0,0);
+	background-image:url(http://www.zingerbugimages.com/backgrounds/blue_sky_with_sun_and_clouds.jpg);
+	background-position:center center;
 }
 
 .l_election>.row {
@@ -1399,12 +1411,26 @@ a:hover {
 
 #gradient {
     overflow: visible!important;
-    background: linear-gradient(180deg,#384f6f 20%,#300041 80%)
+    background: linear-gradient(180deg,#00008B 20%,#300041 80%)
 }
 
-.l_calac,.l_pie {
+.l_pie { Hue 149 Sat 229 Lum 21 Red 1 Green 23 Blue 44
     padding: 50px 0;
-    background: url(../images/bg2.jpg) center center no-repeat;
+	background-color:rgb(0,0,0);
+	background-image:url(https://i.pinimg.com/564x/7c/27/48/7c274897be76c15a30b07b1ffad224f1.jpg);
+	background-position:center center;
+	background-repeat:repeat;
+    background-size: cover;
+    position: relative
+}
+
+.l_calac,.l_p {
+    padding: 50px 0;
+	background-color: hsl(141, 224, 28);
+	background: rgb(2, 29, 58);
+	background-position:center center;
+	background-repeat:repeat;
+	background-attachment:fixed;
     background-size: cover;
     position: relative
 }
@@ -1730,11 +1756,18 @@ canvas {
     background: 0 0;
     margin: 40px auto
 }
+text/css {
+	font-size:22pt;
+    color: 	#000080;  
+    background: url(../images/bg2.jpg)    center center no-repeat;
+}
 
 .l_header_main {
     background: url(../images/voiting_bg.jpg) center center no-repeat;
     padding-bottom: 30px
 }
+
+
 
 .l_header_main .container {
     padding-top: 35px
