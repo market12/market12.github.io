@@ -1472,7 +1472,7 @@ a:hover {
 
 .b_countdown {
     padding: 30px 0 29px;
-    background: rgba(0,0,0,.5)
+    background-image: url(../images/blue.jpg)
 }
 
 .b_countdown .title_calc {
